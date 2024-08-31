@@ -57,6 +57,11 @@
             font-weight: bold;
         }
     </style>
+	<script>
+		document.getElementById("multiplicacionBoton").addEventListener("onClick", function() {
+            window.location.href = "multiplicaciones.html";
+        });
+	</script>
 </head>
 <body>
     <header>
@@ -67,25 +72,25 @@
         </div>
     </header>
 
-    <div class="container"  style="width:100%; height:720px; background-size:contain; background-repeat: no-repeat; background-position: center; background-color: #55A19D; background-image:url('background-dino-2.png')">
+    <div class="container"  style="width:100%; height:720px; background-size:cover; background-repeat: no-repeat; background-position: center; background-color: #63A9B5; background-image:url('background-naves.png')">
         <!-- Contenido principal aquí -->
 		<div id="juegos-matematicas" style="text-align:center; margin-top: 10%;">
 		  <!-- Botón para el modo de juego 1 con imagen de fondo -->
-		  <button style="width:255px; color: #ffffff; font-size:30px; margin:20px; padding:20px; background: #2898ee; background-size:cover; border-radius:15px;">
+		  <button onclick="window.location.href = 'tablas.html';" style="width:255px; color: #ffffff; font-size:30px; margin:20px; padding:20px; background: #2898ee; background-size:cover; border-radius:15px;">
 			Tablas <br>
 			de <br> 
 			Multiplicar
 		  </button>
 
 		  <!-- Botón para el modo de juego 2 con imagen de fondo -->
-		  <button style="width:255px; color: #ffffff; font-size:30px; margin:20px; padding:20px; background: #2898ee; background-size:cover; border-radius:15px;">
+		  <button onclick="window.location.href = 'sumas.html';" style="width:255px; color: #ffffff; font-size:30px; margin:20px; padding:20px; background: #2898ee; background-size:cover; border-radius:15px;">
 			Sumas <br> 
 			y <br>
 			Restas
 		  </button>
 
 		  <!-- Botón para el modo de juego 3 con imagen de fondo -->
-		  <button style="width:255px; color: #ffffff; font-size:30px; margin:20px; padding:20px; background: #2898ee; background-size:cover; border-radius:15px;">
+		  <button onclick="window.location.href = 'multiplicaciones.html';"	style="width:255px; color: #ffffff; font-size:30px; margin:20px; padding:20px; background: #2898ee; background-size:cover; border-radius:15px;">
 			Multiplicaciones <br>
 			y <br>
 			Divisiones
