@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Aprende Matemáticas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #2898ee;
+            color: white;
+            padding-top: 25px;
+            min-height: 50px;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            text-align: center;
+			margin: 0 auto;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+		
+		nav {
+			background: #2898ee;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+		
+		h2 {
+            color: #333;
+            font-size: 20px;
+            text-align: center; /* Centra los encabezados h2 */
+        }
+		
+        .info-card {
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 80%;
+			margin: 100px;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .info-card p {
+            color: #666;
+            font-size: 16px;
+			text-align: justify;
+        }
+
+        .info-card h2 {
+            color: #333;
+            font-size: 20px;
+        }
+    </style>
+	<script>
+		document.getElementById("multiplicacionBoton").addEventListener("onClick", function() {
+            window.location.href = "multiplicaciones.html";
+        });
+	</script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Funny</span> Math</h1>
+            </div>
+        </div>
+    </header>
+	<nav>
+		<a href="matematicas divertidas.html">Inicio</a>
+		<a href="matematicas divertidas sobre.html">Sobre FunnyMath</a>
+	</nav>
+    <div class="container"  style="width:100%; height:720px; background-size:cover; background-repeat: no-repeat; background-position: center; background-color: #63A9B5; background-image:url('background-naves.png')">
+		<div class="info-card">
+			<h2>Expotect 2024</h2>
+			<h2>Sección 4-A</h2>
+			<h3>Integrantes:</h3>
+			<ul>
+				<li>Abril Méndez Valverde</li>
+				<li>Samanta González Jiménez</li>
+				<li>Ignacio Fonseca Camacho</li>
+			</ul>
+
+			<h3>Sobre FunnyMath</h3>
+			<p>
+				FunnyMath es un portal dedicado al aprendizaje de las matemáticas, enfocado en que los estudiantes puedan aprender y practicarlas a través del uso de la tecnología. Nuestro objetivo es que los estudiantes se diviertan mientras aprenden los conceptos básicos, integrando juegos interactivos y actividades didácticas que promueven el pensamiento crítico y el razonamiento lógico.
+			</p>
+		</div>
+    </div>
+
+    <footer>
+        <p>© 2024 FunnyMath. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
